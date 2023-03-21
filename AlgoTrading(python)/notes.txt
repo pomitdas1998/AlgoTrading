@@ -1,0 +1,56 @@
+APP NAME	       API TYPE	    API KEY 	   SECRET KEY 	                                       STATUS   
+tradeonlevel       Trading	    WxUYle42 	   11e14d95-2371-4999-9e4f-be8f05eb7f41 	           Active
+-------------------------------------------------------------------------------------------------------------------------
+what I have to do in this project
+---------------------
+Time Frame: 3 min, 4 min, 5 min & 15 min
+
+Indicator to use:
+
+(1) VWAP (2) SUPER TREND - 10,3  
+
+Entry Conditions:
+
+PE side: Price must be below VWAP
+Entry when super-trend green line turns red
+
+
+Stoploss:
+Highest high of last 5 candles
+
+Target:
+1.25x of distance between stop loss and super-trend cross-down point 
+
+Exit Conditions: Either super-trend red line turn green 
+
+
+
+Entry Conditions:
+CE side: Price must be above VWAP
+Entry when super-trend red line turns green
+
+Stoploss:
+Lowest Low of last 5 candles
+
+Target:
+1.25x of distance between stop loss and super-trend cross-over point 
+
+Exit Conditions: 
+Either super-trend green line turns red
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+1)help(ta.vwap)  -> if want to know about indiactor you can write help(ta.indicator name)
+2)for sell => close price should be less vwap ie close < vwap
+3)for buy => close price should be greater then vwap ie close < vwap
+
+
+
+--------------------------------------
+doubt
+--------------------------------------
+1)at 1 both buy and sell is 1 condition is not for sell then also 
+
+
